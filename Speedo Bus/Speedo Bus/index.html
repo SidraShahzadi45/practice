@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedo Bus Lahore</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <h1>Speedo Bus Lahore</h1>
+        <form id="route-form">
+            <label for="start">Starting Stop:</label>
+            <input type="text" id="start" required>
+
+            <label for="end">Ending Stop:</label>
+            <input type="text" id="end" required>
+
+            <button type="submit">Find Route</button>
+        </form>
+
+        <div id="route-display" class="route-display"></div>
+    </div> -->
+
+
+    <div class="container">
+        <h1>Speedo Bus Lahore</h1>
+        <form id="route-form">
+            <label for="start">Starting Stop:</label>
+            <input type="text" id="start" required autocomplete="off">
+            <div id="start-suggestions" class="suggestions"></div>
+
+            <label for="end">Ending Stop:</label>
+            <input type="text" id="end" required autocomplete="off">
+            <div id="end-suggestions" class="suggestions"></div>
+
+            <button type="submit">Find Route</button>
+        </form>
+
+        <div id="route-display" class="route-display"></div>
+    </div>
+
+
+    <script src="JS/javascript.js"></script>
+</body>
+</html>
